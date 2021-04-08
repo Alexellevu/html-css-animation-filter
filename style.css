@@ -104,3 +104,24 @@ background-color:transparent;
     height: 20px;
 }
 
+/* esercizio6 */
+.ex-6-img:hover{
+    filter:grayscale(1);
+}
+
+/* esercizio7 */
+
+.ex-7-img:hover{
+    filter:saturate(8) grayscale(8);
+    transition: 5s;
+}
+
+/* esercizio8 */
+.ex-8-img:hover{    
+    filter: invert(10) sepia(10);
+    border-radius: 10px;
+    transition: 5s;
+}
+
+
+
