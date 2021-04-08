@@ -8,6 +8,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition:width 10s;
 }
 .ex-3-square {
     width: 100px;
@@ -69,6 +70,13 @@
     height: 20px;
 }
 
+
+/* esercizio1 */
 .ex-1-square:hover{
     background-color:red;
+}
+
+/* esercizio2 */
+.ex-2-square:active{
+    width: 600px;
 }
