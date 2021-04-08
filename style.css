@@ -20,6 +20,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition:5s;
 }
 .ex-5-square {
     margin: 20px;
@@ -85,4 +86,10 @@
 /* esercizio3 */
 .ex-3-square:hover{
     border-radius: 50px;
+}
+
+/* esercizio4 */
+
+.ex-4-square:hover{
+background-color:transparent;
 }
