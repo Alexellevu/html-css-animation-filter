@@ -36,9 +36,13 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 5s;
 }
 .ex-10-icon {
     font-size: 60px;
+    animation:rotation 10s;
+   
+    
 }
 .ex-11-icon {
     font-size: 60px;
@@ -123,5 +127,23 @@ background-color:transparent;
     transition: 5s;
 }
 
+/* esercizio9 */
+.ex-9-img:hover{
+    filter: brightness(2) contrast(3);
+    border-radius: 8px;
+    width:300px;
+}
+
+/* esercizio10 */
+@keyframes rotation{
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform:rotate(360deg);
+    }
 
 
+
+}   
